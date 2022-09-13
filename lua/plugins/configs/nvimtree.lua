@@ -53,7 +53,7 @@ local options = {
         file = true,
         folder = true,
         folder_arrow = true,
-        git = false,
+        git = true,
       },
 
       glyphs = {
@@ -61,9 +61,9 @@ local options = {
         symlink = "",
         folder = {
           default = "",
-          empty = "",
-          empty_open = "",
-          open = "",
+          empty = "",
+          empty_open = "",
+          open = "",
           symlink = "",
           symlink_open = "",
           arrow_open = "",
@@ -74,7 +74,7 @@ local options = {
           staged = "✓",
           unmerged = "",
           renamed = "➜",
-          untracked = "★",
+          untracked = "U",
           deleted = "",
           ignored = "◌",
         },
